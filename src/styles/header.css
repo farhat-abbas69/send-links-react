@@ -1,0 +1,49 @@
+/*Hero*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    opacity: 0.4;
+}
+
+.site-heading {
+    position: relative;
+    padding: 250px 0 150px;
+    color: white;
+    z-index: 2;
+}
+
+.site-heading {
+    text-align: center; 
+}
+
+.masthead {
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    background-image: url('https://a-static.besthdwallpaper.com/mikey-tokyo-revengers-wallpaper-2560x1600-82235_7.jpg');
+}
+
+.subheading {
+    background-color: rgba(69, 156, 196, 0.212);
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    line-height: 1.1;
+    border-radius: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 55px;
+    }
+    .subheading {
+        font-size: 30px;
+    }
+}
+  

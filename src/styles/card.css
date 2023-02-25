@@ -1,0 +1,85 @@
+.card {
+  cursor: pointer;
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 1.7rem 3rem;
+  padding: 0.7rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: transform .2s;
+
+}
+  
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 1rem;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+  
+.user-img {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+  
+.glass {
+  background: rgba(255, 255, 255, 0.661);
+  min-height: 80vh;
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(155, 154, 154, 0.7),
+    rgba(69, 59, 59, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+  margin-bottom: 1rem;
+}
+.home-page-glass {
+    /* Created with https://www.css-gradient.com */
+  background: linear-gradient(315deg, #9b32f9, #5a3cb4, #c55198);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.home-page-glass:hover {
+    transform: scale(1.02);
+}
+  
+.progress {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+h2{
+  color: black;
+  margin-bottom: 0;
+}
+
+body > div > a {
+  text-decoration: none;
+}
