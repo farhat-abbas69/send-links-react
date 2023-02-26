@@ -2,6 +2,8 @@ import Ucard from "../components/usercard";
 import { useState,useEffect } from "react";
 import { firestore } from '../lib/firebase.js';
 import { useParams } from "react-router-dom";
+import Circle from "../components/circle";
+import Loader from "../components/loader";
 export default function User() {
     const {id} = useParams();
     // const { slug } = props;
@@ -35,10 +37,12 @@ export default function User() {
     useEffect(() => {
       getUsers();
     }, []);
+
+    
     return (
       <>
-        {loading && "Loading"}
-         {!loading &&<Ucard userprofile={user} />}
+        {loading && <Loader />}
+        {!loading &&<Ucard userprofile={user} />}
       </>
     );
   }

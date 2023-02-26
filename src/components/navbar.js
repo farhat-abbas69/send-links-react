@@ -50,6 +50,14 @@ export default function Navbar() {
             </li>
           )}
 
+          {!user && (
+            <li>
+              <Link to={`/register`}>
+                <button className="btn btn-4">Register</button>
+              </Link>
+            </li>
+          )}
+
           {user && (
             <li>
               <Link to={`/user/edit`}>

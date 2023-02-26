@@ -1,6 +1,6 @@
 
-.form {
-    width: 40%;
+.my-form {
+    /* width: 40%; */
     height: auto;
     background-color: #fff;
     color: #333333;
@@ -37,7 +37,7 @@ fieldset {
     font-weight: 500;
 }
 
-input {
+.login-input {
     padding: 10px;
     border: 1px solid rgba(51,51,51,0.3);
     border-radius: 5px;
@@ -63,7 +63,7 @@ input {
     transition: 0.3s;
 }
 
-form{
+.my-form{
     display: flex;
     justify-content: center;
     align-items: center;

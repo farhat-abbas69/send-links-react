@@ -1,10 +1,10 @@
-import { signInWithEmailAndPassword } from "firebase/auth"
+import { createUserWithEmailAndPassword } from "firebase/auth"
 
 import { auth } from "../lib/firebase"
 import "../styles/edit.css"
 import { useNavigate } from "react-router-dom"
 
-export default function Login() {
+export default function Register() {
   const navigate = useNavigate()
 
   function btnSubmit(e) {
@@ -13,7 +13,7 @@ export default function Login() {
     const email = e.target.email.value
     const password = e.target.password.value
     const name = e.target.name.value
-    signInWithEmailAndPassword(auth, email, password)
+    createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user
@@ -50,7 +50,7 @@ function FormField() {
       </div>
 
       <button className="login-btn" type="submit">
-        Login
+        Register
       </button>
     </fieldset>
   )

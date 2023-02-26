@@ -8,13 +8,13 @@ p {
 .u-card-main {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #3a37e4, #6c94eb);
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 .u-card-user_screen {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #b4e9df, #6cdbeb);
   min-height: 100vh;
 
 }
@@ -22,11 +22,7 @@ p {
   background: white;
    min-height: 80vh;
   width: 60%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(155, 154, 154, 0.7),
-    rgba(34, 32, 32, 0.3)
-  );
+  background: linear-gradient(to right top, #ef82ab, #6cdbeb);
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);

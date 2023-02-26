@@ -45,6 +45,7 @@ export default function Ucard({ userprofile }) {
 function Card({ social, value }) {
   console.log(value)
   return (
+    <a href={value} target="_blank">
     <div className="u-card">
       {/* <img
         className="logo"
@@ -58,5 +59,6 @@ function Card({ social, value }) {
       </div>
       <h2></h2>
     </div>
+    </a>
   );
 }

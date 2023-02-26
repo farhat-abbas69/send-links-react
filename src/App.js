@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import './index.css'
 import './styles/card.css'
-// import './styles/form.css'
+import './styles/form.css'
 
 import Navbar from "./components/navbar"
 import Login from "./pages/login";
 import Edit from './pages/edit'
 import User from "./pages/user";
+import Register from "./pages/register";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+
         <Route path="/user" element={<Home />} />
         <Route path="/user/edit" element= {<Edit />} />
         <Route path="/user/:id" element={<User />} />

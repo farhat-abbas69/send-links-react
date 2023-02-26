@@ -1,15 +1,17 @@
 .main-header{
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2); */
     z-index: 2;
     position: relative;
+    
   }
   
 .nav{
     display: flex;
     align-items: flex-start;
     width: 90%;
-    margin: 5px 5px 5px 5px;
-    min-height: 10vh;
+    /* margin: 5px 5px 5px 5px; */
+    /* min-height: 10vh; */
+    
     /* padding: 0.5rem 0rem; */
 }
   
