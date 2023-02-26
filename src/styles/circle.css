@@ -1,0 +1,13 @@
+.circle-bg{
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #9b32f9, #5a3cb4, #c55198);
+    
+}
