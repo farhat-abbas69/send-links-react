@@ -2,6 +2,7 @@
     /* background-color: pink; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .lds-ring {
     display: inline-block;
@@ -13,8 +14,8 @@
     box-sizing: border-box;
     display: block;
     position: absolute;
-    left: 50%;
-    right: 50%;
+    /* left: 40%; */
+    /* right: 40%; */
     width: 64px;
     height: 64px;
     border: 8px solid #000000;

@@ -13,6 +13,7 @@ export default function Login() {
     const email = e.target.email.value
     const password = e.target.password.value
     const name = e.target.name.value
+    
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
